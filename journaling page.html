@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journal Entry</title>
+    <style>
+        body {
+            background-color: lightyellow;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        textarea {
+            display: block;
+            width: 80%;
+            height: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+            resize: none;
+        }
+        button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: darkblue;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: navy;
+        }
+    </style>
+</head>
+<body>
+    <h1>Journal Entry</h1>
+    <textarea placeholder="Start writing your journal entry here..."></textarea>
+    <button onclick="saveEntry()">Save Entry</button>
+    <script>
+        // Placeholder JavaScript function for saving entries
+        function saveEntry() {
+            alert("Your journal entry has been saved!");
+        }
+    </script>
+</body>
+</html>
+
